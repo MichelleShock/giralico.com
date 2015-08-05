@@ -1,10 +1,42 @@
+/*
+Fonts used from Google fonts
+font-family: 'Open Sans', sans-serif;
+font-family: 'ReenieBeanie', cursive;
+font-family: 'Tangerine', cursive;
+*/
+
+
 h1 {
+	margin: 0;
+	padding: 0;
+	height: 500px;
+	max-width: 100%;
+	text-align: center;
+	font: 5em bold 'Open Sans', sans-serif;
+	color:  #CCFFCC;
+	background-image: url(images/oceanfam.jpg);
+	background-size: cover;
+
 }
 
 h2 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font: 3em 'Reenie Beanie', cursive;
+
 }
 
 body {
+	margin: 0;
+	background-color: #CCFFCC;
+}
+
+.bodytext {
+	padding: 0 20%;
+	text-align: center;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
 }
 
 
